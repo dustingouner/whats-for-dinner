@@ -1,4 +1,3 @@
-
 var sideRadioBtn = document.getElementById('sideRadioBtn')
 var mainDishRadioBtn = document.getElementById('mainDishRadioBtn')
 var dessertRadioBtn = document.getElementById('dessertRadioBtn')
@@ -72,20 +71,21 @@ function getRandomIndex(array) {
 }
 
 function displayRecipe() {
+  
   var sideDish = getRandomIndex(sides)
   var mainDish = getRandomIndex(mains)
   var dessertDish = getRandomIndex(desserts)
   cookpotImage.classList.add('hidden')
   messageBox.classList.remove('hidden')
   if (sideRadioBtn.checked) {
-      currentRecipe = `${sides[sideDish]}`
+      currentRecipe = `${sides[sideDish]}!`
   } else if (mainDishRadioBtn.checked) {
-    currentRecipe = `${mains[mainDish]}!`
+      currentRecipe = `${mains[mainDish]}!`
   } else if (dessertRadioBtn.checked) {
-    currentRecipe = `${desserts[dessertDish]}!`
+      currentRecipe = `${desserts[dessertDish]}!`
   } else if (entireMealRadioBtn.checked) {
-    currentRecipe = `${mains[mainDish]} with a side of ${sides[sideDish]} and ${desserts[dessertDish]} for dessert!`
-    entireMeal.push(currentRecipe)
+      currentRecipe = `${mains[mainDish]} with a side of ${sides[sideDish]} and ${desserts[dessertDish]} for dessert!`
+      entireMeal.push(currentRecipe)
   }
   randomDish.innerText = ''
   randomDish.innerText += currentRecipe
@@ -98,14 +98,15 @@ function deleteRecipe() {
   var mainDelete = mains.indexOf(currentRecipe)
   var dessertDelete = desserts.indexOf(currentRecipe)
   var mealDelete = entireMeal.indexOf(currentRecipe)
-  if (sideDelete > -1) {
-    sides.splice(sideDelete, 1)
-  } else if (mainDelete > -1) {
-    mains.splice(mainDelete, 1)
-  } else if (dessertDelete > -1) {
-    desserts.splice(dessertDelete, 1) 
-  } else if (mealDelete > -1) {
-    entireMeal.splice(mealDelete, 1)
+  console.log(sideDelete)
+  if (sideDelete >= -1) {
+    sides.splice(sideDelete,1)
+  } else if (mainDelete >= -1) {
+    mains.splice(mainDelete,1)
+  } else if (dessertDelete >= -1) {
+    desserts.splice(dessertDelete,1) 
+  } else if (mealDelete >= -1) {
+    entireMeal.splice(mealDelete,1)
   }
   alert('This recipe has been deleted!')
 }
