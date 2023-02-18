@@ -10,8 +10,9 @@
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 
 ### Preview of App:
-* What's For Dinner - 18 February 2023 (1).gif
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+
+### Preview of App:
+![What's For Dinner gif](https://user-images.githubusercontent.com/117230717/219880318-4bcd6218-f7c7-403c-b4c9-797f9bb38376.gif)* [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
 ### Context:
 * This project was assigned to me during my third week of Mod 1 at Turing on Tuesday, February 14th. It was due by Sunday, February 19th. I was able to complete the project by Friday, February 17th. I spent about 4 hours each day from Tuesday to Friday working on the project. 
