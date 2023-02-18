@@ -83,11 +83,11 @@ function displayRecipe() {
   } else if (dessertRadioBtn.checked) {
       currentRecipe = desserts[dessertDish]
   } else if (entireMealRadioBtn.checked) {
-      currentRecipe = `${mains[mainDish]} with a side of ${sides[sideDish]} and ${desserts[dessertDish]} for dessert!`
+      currentRecipe = `${mains[mainDish]} with a side of ${sides[sideDish]} and ${desserts[dessertDish]} for dessert`
       entireMeal.push(currentRecipe)
   }
   randomDish.innerText = ''
-  randomDish.innerText += currentRecipe
+  randomDish.innerText += currentRecipe + '!'
 }
 
 function deleteRecipe() {
