@@ -8,9 +8,6 @@
 * github repository link- https://github.com/dustingouner/whats-for-dinner
 * SSH clone link- git@github.com:dustingouner/whats-for-dinner.git
 
-
-### Preview of App:
-
 ### Preview of App:
 ![What's For Dinner gif](https://user-images.githubusercontent.com/117230717/219880318-4bcd6218-f7c7-403c-b4c9-797f9bb38376.gif)
 
