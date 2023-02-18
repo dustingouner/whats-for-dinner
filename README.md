@@ -9,8 +9,7 @@
 * SSH clone link- git@github.com:dustingouner/whats-for-dinner.git
 
 ### Preview of App:
-![What's For Dinner gif](https://user-images.githubusercontent.com/117230717/219880318-4bcd6218-f7c7-403c-b4c9-797f9bb38376.gif)
-
+![What's for Dinner?](https://user-images.githubusercontent.com/117230717/219883160-e1e3fe5e-2871-4441-9b6f-74416087a1ef.gif)
 ### Context:
 * This project was assigned to me during my third week of Mod 1 at Turing on Tuesday, February 14th. It was due by Sunday, February 19th. I was able to complete the project by Friday, February 17th. I spent about 4 hours each day from Tuesday to Friday working on the project. 
 
